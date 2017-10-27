@@ -1,0 +1,11 @@
+/.metadata
+/Servers
+/RemoteSystemsTempFiles/.project
+/administrivia/.settings
+/administrivia/.classpath
+/administrivia/.project
+/administrivia/target
+/administrivia/target/m2e-wtp/web-resources/META-INF/maven/org.fusu/administrivia
+/administrivia/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+/administrivia/target/classes/org/fusu/dao
+/administrivia/target/classes/org/fusu/entity
