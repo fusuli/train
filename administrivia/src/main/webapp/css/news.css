@@ -1,0 +1,156 @@
+22:10:28
+扶苏 2017/10/26 22:10:28
+/*预定义样式*/
+*{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+/*预定义样式结束*/
+.max{
+	width:1000px;
+	height:500px;
+	background:#FAFAFA;
+	/*border:1px solid red;*/
+	margin:0px auto;
+}
+.top{
+	width:1000px;
+	height:60px;
+	background:#fff;
+	/*border:1px solid red;*/
+}
+.topa{
+	width:500px;
+	height:60px;
+	/*border:1px solid red;*/
+	margin:0px auto;
+}
+.top_l{
+	width:130px;
+	height:60px;
+	/*border:1px solid red;*/
+	float:left;
+	text-align:center;
+	line-height:60px;
+}
+.top_l:hover{
+	border-bottom:2px solid #777;
+}
+.top_l a{
+	color:red;
+	font-weight:bold;
+}
+.top_c{
+	width:130px;
+	height:60px;
+	border-bottom:2px solid #777;
+	float:left;
+	margin-left:55px;
+	text-align:center;
+	line-height:60px;
+}
+.top_c a{
+	color:red;
+	font-weight:bold;
+}
+.top_r{
+	width:130px;
+	height:60px;
+	/*border:1px solid red;*/
+	float:right;
+	text-align:center;
+	line-height:60px;
+}
+.top_r:hover{
+	border-bottom:2px solid #777;
+}
+.top_r a{
+	color:red;
+	font-weight:bold;
+}
+.nr{
+	width:800px;
+	height:400px;
+	/*border:1px solid red;*/
+	margin:0px auto;
+	margin-top:30px;
+}
+.nr1{
+	width:240px;
+	height:350px;
+	/*border:1px solid red;*/
+	float:left;
+	background:#fff;
+}
+.nr1_t{
+	width:240px;
+	height:170px;
+	/*border:1px solid red;*/
+	background:url("../image/news/f2.jpg") no-repeat;
+	background-size:240px;
+}
+.nr1_c{
+	width:240px;
+	height:140px;
+	/*border:1px solid red;*/
+}
+.nr1_b{
+	width:240px;
+	height:30px;
+	/*border:1px solid red;*/
+}
+.nr2{
+	width:240px;
+	height:350px;
+	/*border:1px solid red;*/
+	float:left;
+	margin-left:38px;
+	background:#fff;
+}
+.nr2_t{
+	width:240px;
+	height:170px;
+	/*border:1px solid red;*/
+	background:url("../image/news/f3.jpg") no-repeat;
+	background-size:240px;
+}
+.nr2_c{
+	width:240px;
+	height:140px;
+	/*border:1px solid red;*/
+}
+.nr2_b{
+	width:240px;
+	height:30px;
+	/*border:1px solid red;*/
+}
+.nr3{
+	width:240px;
+	height:350px;
+	/*border:1px solid red;*/
+	float:right;
+	background:#fff;
+}
+.nr3_t{
+	width:240px;
+	height:170px;
+	/*border:1px solid red;*/
+	background:url("../image/news/f4.jpg") no-repeat;
+	background-size:240px;
+}
+.nr3_c{
+	width:240px;
+	height:140px;
+	/*border:1px solid red;*/
+}
+.nr3_b{
+	width:240px;
+	height:30px;
+	/*border:1px solid red;*/
+}

@@ -1,0 +1,224 @@
+/*预定义样式*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/*预定义样式结束*/
+.max {
+	width: 1000px;
+	height: 800px;
+	background: #F4F3F3;
+	/*border:1px solid red;*/
+	margin: 0px auto;
+}
+
+.yhdl {
+	width: 1000px;
+	height: 130px;
+	border: 0px solid #F4F3F3;
+}
+
+.toRight_l {
+	width: 425px;
+	height: 1px;
+	margin-top: 90px;
+	float: left;
+	background-image: -webkit-linear-gradient(to right, #fff, #c4c09f);
+	background-image: linear-gradient(to right, #fff, #c4c09f);
+	background-image: -webkit-linear-gradient(to right, #fff, #c4c09f);
+}
+
+.toRight_wz {
+	width: 150px;
+	height: 20px;
+	float: left;
+	font-weight: bold;
+	margin-top: 80px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.toRight_r {
+	width: 425px;
+	height: 1px;
+	margin-top: 90px;
+	float: left;
+	background-image: -webkit-linear-gradient(to right, #c4c09f, #fff);
+	background-image: linear-gradient(to right, #c4c09f, #fff);
+}
+
+.nr {
+	width: 840px;
+	height: 520px;
+	border: 1px solid #fff;
+	margin: 0px auto;
+	background: #fff;
+}
+
+.nr_a {
+	width: 500px;
+	height: 40px;
+	border: 1px solid #fff;
+	margin: 0px auto;
+	margin-top: 120px;
+}
+
+.nr_al {
+	width: 100px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: left;
+	text-align: right;
+	line-height: 40px;
+	font-size: 20px;
+	color: #999;
+}
+
+.nr_ar {
+	width: 380px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: right;
+}
+
+.nr_ar input {
+	width: 360px;
+	height: 36px;
+}
+
+.nr_b {
+	width: 500px;
+	height: 40px;
+	/*border:1px solid red;*/
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+.nr_bl {
+	width: 100px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: left;
+	text-align: right;
+	line-height: 40px;
+	font-size: 20px;
+	color: #999;
+}
+
+.nr_br {
+	width: 380px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: right;
+}
+
+.nr_br input {
+	width: 360px;
+	height: 36px;
+}
+
+.nr_c {
+	width: 500px;
+	height: 40px;
+	/*border:1px solid red;*/
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+.nr_cl {
+	width: 100px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: left;
+	text-align: right;
+	line-height: 40px;
+	font-size: 20px;
+	color: #999;
+}
+
+.nr_cc {
+	width: 280px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: left;
+	margin-left: 16px;
+}
+
+.nr_cc input {
+	width: 276px;
+	height: 36px;
+}
+
+.nr_cr {
+	width: 80px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: right;
+	background: #D9D8D8;
+}
+
+.nr_d {
+	width: 360px;
+	height: 50px;
+	/*border:1px solid red;*/
+	margin: 0px auto;
+	margin-top: 40px;
+	margin-right: 200px;
+}
+
+.nr_d input {
+	width: 360px;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	background: #6E4A54;
+	border: none;
+}
+
+.nr_e {
+	width: 360px;
+	height: 50px;
+	/*border:1px solid red;*/
+	margin: 0px auto;
+	margin-top: 14px;
+	margin-right: 200px;
+}
+
+.nr_el {
+	width: 200px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: left;
+}
+
+.nr_el span {
+	color: #999;
+}
+
+.nr_el a {
+	color: #8FCAE5;
+	font-weight: bold;
+}
+
+.nr_er {
+	width: 100px;
+	height: 40px;
+	/*border:1px solid red;*/
+	float: right;
+	text-align: right;
+}
+
+.nr_er a {
+	color: #8FCAE5;
+	font-weight: bold;
+}
