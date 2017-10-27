@@ -1,0 +1,123 @@
+/*棰勫畾涔夋牱寮�*/
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration:none;
+}
+ul li{
+	list-style:none;
+}
+/*棰勫畾涔夋牱寮忕粨鏉�*/
+.max{
+	width:920px;
+	height:300px;
+	border:1px solid red;
+	margin:0px auto;
+	background-color:#fff;
+}
+.left{
+	width:200px;
+	height:300px;
+	/*border:1px solid red;*/
+	float:left;
+	background-color:#EFF3F5;
+}
+.left_t{
+	width:200px;
+	height:200px;
+	/*border:1px solid red;*/
+	font-size:20px;
+	line-height:320px;
+	text-align:center;
+	background:url("../image/float_effects.png") no-repeat 62px 39px;
+}
+.left_b{
+	width:200px;
+	height:90px;
+	border-top:1px solid #ddd;
+	margin-top:8px;
+}
+.left_bt{
+	width:200px;
+	height:30px;
+	border-top:1px solid #ddd;
+	text-align:center;
+	line-height:30px;
+	font-size:15px;
+	color:#000;
+}
+.left_bt:hover{
+	background:#fff;
+	font-weight:bold;
+	color:#000;
+}
+.left_bb{
+	width:200px;
+	height:30px;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	text-align:center;
+	line-height:30px;
+	font-size:15px;
+	font-weight:bold;
+	color:#000;
+	background:#fff;
+}
+.right{
+	width:500px;
+	height:200px;
+	/* border:1px solid red; */
+	float:left;
+	margin-top:30px;
+	margin-left: 120px;
+}
+.right_a{
+	width:480px;
+	height:36px;
+	/*border:1px solid red;*/
+	margin:0px auto;
+	margin-top:5px;
+}
+.right_a input{
+	width:360px;
+	height:36px;
+}
+.right_b{
+	width:480px;
+	height:36px;
+	/*border:1px solid red;*/
+	margin:0px auto;
+	margin-top:20px;
+}
+.right_b input{
+	width:360px;
+	height:36px;
+}
+.right_c{
+	width:480px;
+	height:36px;
+	/*border:1px solid red;*/
+	margin:0px auto;
+	margin-top:20px;
+	margin-left: -5px;
+}
+.right_c input{
+	width:360px;
+	height:36px;
+}
+.right_d{
+	width:360px;
+	height:50px;
+	/*border:1px solid red;*/
+	margin:0px auto;
+	margin-top:32px;
+}
+.right_d input{
+	width:360px;
+	height:50px;
+	background:#6d4b54;
+	color:#fff;
+	border:none;
+}
