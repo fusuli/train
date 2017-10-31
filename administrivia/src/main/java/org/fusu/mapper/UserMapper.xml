@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.fusu.mapper.UserMapper">
+
+	<!-- 注册账号 -->
+	<insert id="insertUser" parameterType="User">
+		INSERT INTO admin
+		(name,password) VALUES (#{name},#{password})
+	</insert>
+
+	<!-- 用户登录 -->
+	<select id="queryCountBynp" parameterType="User" resultType="int">
+		select count(1) as
+		count
+		from admin where name=#{name} and
+		password=#{password}
+	</select>
+</mapper>
