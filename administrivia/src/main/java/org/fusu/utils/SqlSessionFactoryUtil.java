@@ -16,20 +16,20 @@ public class SqlSessionFactoryUtil {
 
 	/**
 	 * 
-	 * åˆ›å»ºé™æ€å˜é‡SqlSessionFactoryï¼Œé™æ€å˜é‡è¢«æ‰€æœ‰çš„å¯¹è±¡æ‰€å…±äº«ã€‚
+	 * ´´½¨¾²Ì¬±äÁ¿SqlSessionFactory£¬¾²Ì¬±äÁ¿±»ËùÓĞµÄ¶ÔÏóËù¹²Ïí¡£
 	 * 
-	 * æä¾›åˆ›å»ºMyBatisçš„æ ¸å¿ƒæ¥å£SqlSession
+	 * Ìá¹©´´½¨MyBatisµÄºËĞÄ½Ó¿ÚSqlSession
 	 */
 	public static SqlSessionFactory sqlSessionFactory = null;
 
 	public static SqlSessionFactory getSqlSessionFactory() {
-		// è¯»å–å…¨å±€é…ç½®æ–‡ä»¶
+		// ¶ÁÈ¡È«¾ÖÅäÖÃÎÄ¼ş
 		String resource = "org/fusu/mapper/mybatis-config.xml";
 		if (sqlSessionFactory == null) {
 			try {
 				Reader reader = Resources.getResourceAsReader(resource);
 				sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-				System.out.println("æµ‹è¯•æˆåŠŸ");
+				System.out.println("²âÊÔ³É¹¦");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

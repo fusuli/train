@@ -10,13 +10,13 @@ public class UserMapperImpl {
 	static UserMapper userMapper = session.getMapper(UserMapper.class);
 
 	/**
-	 * 用户登录
+	 * �û���¼
 	 * 
 	 * @param user
 	 * @return
 	 */
-	public static int queryCountBynp(User user) {
-		int rs = userMapper.queryCountBynp(user);
+	public static int queryCountBynp(String name,String password) {
+		int rs = userMapper.queryCountBynp(name,password);
 		if (rs > 0) {
 			return 1;
 		}
@@ -24,7 +24,7 @@ public class UserMapperImpl {
 	}
 
 	/**
-	 * 用户注册
+	 * �û�ע��
 	 * 
 	 * @param user
 	 * @return

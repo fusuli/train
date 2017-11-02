@@ -3,10 +3,10 @@ package org.fusu.mapper;
 import org.fusu.entity.User;
 
 public interface UserMapper {
-	// 用户登录
-	public int queryCountBynp(User user);
+	// 登录
+	public int queryCountBynp(String name,String password);
 
-	// 用户注册
+	// 注册
 	public int insertUser(User user);
 
 }

@@ -9,7 +9,7 @@
 	href="<%=request.getContextPath()%>/css/login.css">
 </head>
 <body>
-	<form action="1.php" method="post">
+	<form action="LoginServlet" method="post">
 		<div class="max">
 			<div class="yhdl">
 				<div class="toRight_l"></div>
@@ -20,29 +20,29 @@
 				<div class="nr_a">
 					<div class="nr_al">手机号</div>
 					<div class="nr_ar">
-						<input type="text" name="phone" />
+						<input type="text" name="name" />
 					</div>
 				</div>
 				<div class="nr_b">
 					<div class="nr_bl">密码</div>
 					<div class="nr_br">
-						<input type="password" name="pass" />
+						<input type="password" name="password" />
 					</div>
 				</div>
-				<div class="nr_c">
+				<!-- <div class="nr_c">
 					<div class="nr_cl">验证码</div>
 					<div class="nr_cc">
 						<input type="text" name="yzm" />
 					</div>
 					<div class="nr_cr">文字看不清写的啥</div>
-				</div>
+				</div> -->
 				<div class="nr_d">
 					<input type="submit" value="登录">
 				</div>
 				<div class="nr_e">
 					<div class="nr_el">
 						<span>还没有账号，</span><a
-							href="<%=request.getContextPath()%>/pages/news.jsp">立即注册</a>
+							href="<%=request.getContextPath()%>/pages/insert.jsp">立即注册</a>
 					</div>
 					<div class="nr_er">
 						<a href="#">忘记密码？</a>

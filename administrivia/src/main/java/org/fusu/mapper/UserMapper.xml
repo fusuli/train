@@ -9,7 +9,7 @@
 	</insert>
 
 	<!-- 用户登录 -->
-	<select id="queryCountBynp" parameterType="User" resultType="int">
+	<select id="queryCountBynp" resultType="int">
 		select count(1) as
 		count
 		from admin where name=#{name} and
