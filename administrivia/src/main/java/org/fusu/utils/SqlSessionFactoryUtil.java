@@ -8,7 +8,6 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class SqlSessionFactoryUtil {
-
 	public static void main(String[] args) {
 		@SuppressWarnings("unused")
 		SqlSessionFactory sqlSession = getSqlSessionFactory();
@@ -29,7 +28,6 @@ public class SqlSessionFactoryUtil {
 			try {
 				Reader reader = Resources.getResourceAsReader(resource);
 				sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-				System.out.println("≤‚ ‘≥…π¶");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

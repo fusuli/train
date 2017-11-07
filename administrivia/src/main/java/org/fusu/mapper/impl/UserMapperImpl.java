@@ -6,7 +6,7 @@ import org.fusu.mapper.UserMapper;
 import org.fusu.utils.SqlSessionFactoryUtil;
 
 public class UserMapperImpl {
-	static SqlSession session = SqlSessionFactoryUtil.getSqlSessionFactory().openSession();
+	private static SqlSession session = SqlSessionFactoryUtil.getSqlSessionFactory().openSession();
 	static UserMapper userMapper = session.getMapper(UserMapper.class);
 
 	/**

@@ -9,7 +9,7 @@ public class UserMapperImplTest {
 	public void testInsertUser() {
 
 		User userInfo = new User();
-		userInfo.setName("112223");
+		userInfo.setName("113332223");
 		userInfo.setPassword("1234");
 		int i = UserMapperImpl.insertUser(userInfo);
 		System.out.println("锟斤拷锟�" + i);
@@ -22,7 +22,7 @@ public class UserMapperImplTest {
 		String password = "1234";
 
 		int i = UserMapperImpl.queryCountBynp(name, password);
-		System.out.println("result锛�" + i);
+		System.out.println("result:" + i);
 		Assert.assertEquals(i, 1);
 	}
 }

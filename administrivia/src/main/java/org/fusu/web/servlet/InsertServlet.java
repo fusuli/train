@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.fusu.entity.User;
-import org.fusu.mapper.impl.UserMapperImpl;
 
 /**
  * Servlet implementation class InsertServlet
@@ -34,13 +33,13 @@ public class InsertServlet extends HttpServlet {
 		User user = new User();
 		user.setName(name);
 		user.setPassword(password);
-		int n= UserMapperImpl.insertUser(user);
-		if(n==0) {
-			response.sendRedirect("/administrivia/pages/fail.jsp");
-		}
-		if(n==1) {
-			response.sendRedirect("/administrivia/pages/login.jsp");
-		}
+//		int n= UserDaoImpl.insertUser(user);
+//		if(n==0) {
+//			response.sendRedirect("/administrivia/pages/fail.jsp");
+//		}
+//		if(n==1) {
+//			response.sendRedirect("/administrivia/pages/login.jsp");
+//		}
 	}
 
 	/**

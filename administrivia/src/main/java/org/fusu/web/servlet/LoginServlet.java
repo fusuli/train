@@ -6,8 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.fusu.dao.impl.UserDaoImpl;
-import org.fusu.entity.User;
+import org.fusu.mapper.impl.UserMapperImpl;
 
 /**
  * Servlet implementation class LoginServlet
@@ -33,29 +32,34 @@ public class LoginServlet extends HttpServlet {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		String name = (String) request.getParameter("name");
 		String password = (String) request.getParameter("password");
-		User user=new User();
-		user.setName(name);
-		user.setPassword(password);
+
 		System.out.println(name);
 		System.out.println(password);
 
 		if (name == null || password == null) {
 			response.sendRedirect("/administrivia/pages/fail.jsp");
 		}
-		try {
-			UserDaoImpl userDaoImpl =new UserDaoImpl();
-			int n = userDaoImpl.loginUser(user);
-			System.out.println("µÇÂ¼²éÑ¯½á¹û£º"+n);
-			if (n == 0) {
-				response.sendRedirect("/administrivia/pages/fail.jsp");
-			}
-			if (n == 1) {
-				response.sendRedirect("/administrivia/pages/success.jsp");
-			}
-		} catch (Exception e) {
-			// TODO: handle exception
-			e.printStackTrace();
+		int n = UserMapperImpl.queryCountBynp(name, password);
+		if (n == 0) {
+			response.sendRedirect("/administrivia/pages/fail.jsp");
 		}
+		if (n == 1) {
+			response.sendRedirect("/administrivia/pages/success.jsp");
+		}
+		// try {
+		// UserDaoImpl userDaoImpl =new UserDaoImpl();
+		// int n = userDaoImpl.loginUser(user);
+		// System.out.println("ï¿½ï¿½Â¼ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½"+n);
+		// if (n == 0) {
+		// response.sendRedirect("/administrivia/pages/fail.jsp");
+		// }
+		// if (n == 1) {
+		// response.sendRedirect("/administrivia/pages/success.jsp");
+		// }
+		// } catch (Exception e) {
+		// // TODO: handle exception
+		// e.printStackTrace();
+		// }
 	}
 
 	/**

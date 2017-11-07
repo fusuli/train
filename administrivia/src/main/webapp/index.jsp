@@ -5,7 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>庐瓜网络</title>
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/home.css">
+<link rel="stylesheet" type="text/css"
+	href="<%=request.getContextPath()%>/css/home.css">
 <script language="javascript">
 	function closewin() {
 		self.opener = null;
@@ -82,7 +83,7 @@
 				<a href="#">
 					<div class="web1a">
 						<div class="web1a_wz">
-							<span> <a>Web&nbsp;&&nbsp;App&nbsp;Development</a><br />
+							<span> <a>Web&nbsp;	&amp;&nbsp;App&nbsp;Development</a><br />
 								互联网技术及其支撑系统的设计、研发、运维和技术支持服务。
 							</span>
 						</div>
@@ -90,16 +91,16 @@
 				</a> <a href="#">
 					<div class="web1b">
 						<div class="web1b_wz">
-							<span> <a>BI&nbsp;Development&nbsp;&&nbsp;Consulting</a><br />
-								商业数据智能应用场景分析、决策支持业务的开发与咨询服务。
+							<span> <a>BI&nbsp;Development&nbsp;
+									&amp;&nbsp;Consulting</a><br /> 商业数据智能应用场景分析、决策支持业务的开发与咨询服务。
 							</span>
 						</div>
 					</div>
 				</a> <a href="#">
 					<div class="web1c">
 						<div class="web1c_wz">
-							<span> <a>IOT&nbsp;Development&nbsp;&&nbsp;Deployment</a><br />
-								智能楼宇、农业、教育等物联网集成项目的设计、研发、施工等。
+							<span> <a>IOT&nbsp;Development&nbsp;
+									&amp;&nbsp;Deployment</a><br /> 智能楼宇、农业、教育等物联网集成项目的设计、研发、施工等。
 							</span>
 						</div>
 					</div>

@@ -29,13 +29,13 @@
 						<input type="password" name="password" />
 					</div>
 				</div>
-				<!-- <div class="nr_c">
+				<div class="nr_c">
 					<div class="nr_cl">验证码</div>
 					<div class="nr_cc">
 						<input type="text" name="yzm" />
 					</div>
-					<div class="nr_cr">文字看不清写的啥</div>
-				</div> -->
+					<div class="nr_cr">验证码</div>
+				</div>
 				<div class="nr_d">
 					<input type="submit" value="登录">
 				</div>
